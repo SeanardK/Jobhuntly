@@ -1,0 +1,20 @@
+{
+  "terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "backend-end",
+          "commands": ["cd ./backend-nest", "pnpm run start"]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "front-end",
+          "commands": ["cd ./frontend-nuxt", "pnpm run dev"]
+        }
+      ]
+    }
+  ]
+}
